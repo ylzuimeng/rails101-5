@@ -22,6 +22,7 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 gem 'autoprefixer-rails', '9.8.5'
 gem 'bootstrap-sass', '~>3.3.7'
+gem 'simple_form'
 
 
 # Use jquery as the JavaScript library
