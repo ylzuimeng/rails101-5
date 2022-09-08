@@ -8,6 +8,7 @@
         <td>#</td>
         <td>Title</td>
         <td>Description</td>
+        <td>Creator</td>
       </tr>
     </thead>
     <tbody>
@@ -19,6 +20,7 @@
             <%= link_to("Edit", edit_group_path(group), class: "btn btn-sm btn-default") %>
             <%= link_to("Delete", group_path(group), class: "btn btn-sm btn-default", method: :delete, data: { confirm: "Are you sure?"}) %>
           </td>
+          <td><%= group.user.email %></td>
         </tr>
       <% end %>
     </tbody>
